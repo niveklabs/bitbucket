@@ -17,6 +17,8 @@ module "bitbucket_repository" {
   name = null
   # owner - (required) is a type of string
   owner = null
+  # pipelines_enabled - (optional) is a type of bool
+  pipelines_enabled = null
   # project_key - (optional) is a type of string
   project_key = null
   # scm - (optional) is a type of string

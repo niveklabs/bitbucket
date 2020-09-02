@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    bitbucket = ">= 1.1.0"
+    bitbucket = ">= 1.2.0"
   }
 }
 

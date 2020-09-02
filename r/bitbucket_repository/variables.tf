@@ -44,6 +44,12 @@ variable "owner" {
   type        = string
 }
 
+variable "pipelines_enabled" {
+  description = "(optional)"
+  type        = bool
+  default     = null
+}
+
 variable "project_key" {
   description = "(optional)"
   type        = string
